@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+    <!-- change the icon of the website -->
+    <link
+      rel="icon"
+      href="imgs/F&Cicon.svg"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Founders & Coders</title>
+  </head>
+
+  <body>
+    <header>
+      <a href="#" class="logo">
+        <svg
+          viewBox="-1 0 301 141"
+          fill="none"
+          width="100"
+          class="site-logo"
+          stroke-width="1"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <defs>
+            <pattern
+              id="diagonalHatch"
+              patternUnits="userSpaceOnUse"
+              width="5"
+              height="5"
+            >
+              <path
+                d="M-1,1 l2,-2 M0,5 l5,-5 M4,6 l2,-2"
+                stroke="#3a6cf4"
+                strokewidth="1"
+              ></path>
+            </pattern>
+          </defs>
+          <g id="square">
+            <rect width="100" height="100" stroke="#3a6cf4"></rect>
+            <rect width="100" height="50" fill="#3a6cf4"></rect>
+            <rect
+              width="50"
+              height="50"
+              x="50"
+              y="50"
+              fill="url(#diagonalHatch)"
+            ></rect>
+          </g>
+          <g id="triangle" transform="translate(8, 0)">
+            <polygon points="100,100 150,0 200, 100" stroke="#3a6cf4"></polygon>
+            <polygon points="100,100 125,50 150,100" fill="#3a6cf4"></polygon>
+            <polygon points="150, 100 175,50, 200,100" fill="#3a6cf4"></polygon>
+            <polygon
+              points="125,50 150,100 175,50"
+              fill="url(#diagonalHatch)"
+            ></polygon>
+          </g>
+          <g id="circle">
+            <ellipse
+              cx="250"
+              cy="50"
+              rx="50"
+              ry="50"
+              stroke="#3a6cf4"
+            ></ellipse>
+            <ellipse
+              cx="250"
+              cy="50"
+              rx="22"
+              ry="22"
+              fill="url(#diagonalHatch)"
+            ></ellipse>
+            <path d="M250,0 a1,1 0 0,1 0,100" fill="#3a6cf4"></path>
+          </g>
+          <text
+            x="0"
+            y="128"
+            text-length="301"
+            length-adjust="spacingAndGlyphs"
+            stroke="none"
+            fill="black"
+            style="font-size: 24px; text-transform: uppercase"
+          >
+            Founders and coders
+          </text>
+        </svg>
+      </a>
+      <nav class="navigation">
+        <a href="#services">About Me</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <section class="main">
+      <div>
+        <h2>
+          Hello, I'm Inezarene Hamed <br /><span
+            >JUNIOR <br /><span id="Frontend-dev"
+              >Full-Stack Developer</span
+            ></span
+          >
+        </h2>
+        <h3>
+          I specialize in building scalable and interactive web applications.
+        </h3>
+        <a href="#projects" class="main-btn">View my work</a>
+        <div class="social-icons">
+          <a href="https://github.com/Inzhamed" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/hamed-inezarene-390580249/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://www.instagram.com/inzhamed/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/inzhamed" target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <section class="cards" id="services">
+      <h2 class="title">About Me</h2>
+      <div class="content">
+        <div class="card">
+          <div class="info">
+            <h3>Who I Am</h3>
+            <p>
+              I am Hamed Inezarene, a Full-Stack Web Developer and Computer
+              Science student at USTHB. Passionate about technology, I
+              specialize in building **scalable and interactive web
+              applications**
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="info">
+            <h3>Why Web Development?</h3>
+            <p>
+              Web development excites me because it allows me to create
+              **real-world solutions**. I love solving problems with code,
+              optimizing performance, and ensuring a seamless user experience.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="info">
+            <h3>What I've Learned</h3>
+            <p>
+              I have worked with **React, Node.js, Express, threeJs, Spring
+              Boot, PostgreSQL and MongoDB**, and I actively contribute to
+              open-source projects. My projects include server monitoring tools,
+              medical management systems, and high-performance UI interfaces.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects" id="projects">
+      <h2 class="title">Projects</h2>
+      <div class="content">
+        <div class="card-project">
+          <div class="project-img">
+            <img src="imgs/Binz.png" alt="medicalOffice" />
+          </div>
+          <div class="project-info">
+            <p class="project-category"></p>
+            <strong class="project-title">
+              <span>Medical Office System</span>
+              <a
+                class="more-details"
+                href="https://github.com/Inzhamed/medicalOffice"
+                >More details</a
+              >
+            </strong>
+          </div>
+        </div>
+        <div class="card-project">
+          <div class="project-img">
+            <img src="imgs/iPhone15.png" alt="iphone15pro-website" />
+          </div>
+          <div class="project-info">
+            <p class="project-category"></p>
+            <strong class="project-title">
+              <span>iPhone 15 Website Clone</span>
+              <a
+                class="more-details"
+                href="https://inzhamed.github.io/iphone15pro-website/"
+                >More details</a
+              >
+            </strong>
+          </div>
+        </div>
+        <div class="card-project">
+          <div class="project-img">
+            <img src="imgs/server monitor.png" alt="server-monitor" />
+          </div>
+          <div class="project-info">
+            <p class="project-category"></p>
+            <strong class="project-title">
+              <span>Server Monitor</span>
+              <a
+                class="more-details"
+                href="https://github.com/Inzhamed/server-monitor"
+                >More details</a
+              >
+            </strong>
+          </div>
+        </div>
+        <div class="card-project">
+          <div class="project-img">
+            <img src="imgs/portfolio.png" alt="medicalOffice" />
+          </div>
+          <div class="project-info">
+            <p class="project-category"></p>
+            <strong class="project-title">
+              <span>portfolio</span>
+              <a class="more-details" href="#">More details</a>
+            </strong>
+          </div>
+        </div>
+        <div class="card-project">
+          <div class="project-img">
+            <img src="imgs/ppl counter.png" alt="people counter project" />
+          </div>
+          <div class="project-info">
+            <p class="project-category"></p>
+            <strong class="project-title">
+              <span>people counter</span>
+              <a
+                class="more-details"
+                href="/ppl counter/index.html"
+                target="_blank"
+                >More details</a
+              >
+            </strong>
+          </div>
+        </div>
+        <div class="card-project">
+          <div class="project-img">
+            <img src="imgs/Blackjack.png" alt="devqterau" />
+          </div>
+          <div class="project-info">
+            <p class="project-category"></p>
+            <strong class="project-title">
+              <span>Blackjack</span>
+              <a
+                class="more-details"
+                href="/Blackjack game/index.html"
+                target="_blank"
+                >More details</a
+              >
+            </strong>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+      <h2 class="title">Contact</h2>
+      <div class="content">
+        <div class="card">
+          <div class="icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="info">
+            <h3>phone</h3>
+            <p>0549729867</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="info">
+            <h3>email</h3>
+            <p>inezarenehamed@gmail.com</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>
+        &copy; 2025. All rights reserved. Designed and developed by Inezarene
+        Hamed
+      </p>
+      <a href="https://github.com/Inzhamed/your-portfolio-repo" target="_blank">
+        View source code on GitHub
+      </a>
+      <div class="social-icons">
+        <a href="https://github.com/Inzhamed" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/hamed-inezarene-390580249/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a href="https://www.instagram.com/inzhamed/" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a href="https://www.facebook.com/inzhamed/" target="_blank"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>

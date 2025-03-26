@@ -48,7 +48,7 @@ section {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: url(/imgs/P10447653.JPG) no-repeat;
+  background: URL(./imgs/P10447653.JPG) no-repeat;
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
